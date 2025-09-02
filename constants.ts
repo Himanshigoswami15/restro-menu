@@ -223,7 +223,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     id: 'beverages',
-    name: 'Beverages',
+    name: 'Juice and Tea',
     image: 'https://tse4.mm.bing.net/th/id/OIP.oy8M58KwSuyyvrquW5hFvQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
     items: [
       { name: 'Mosambi Juice', price: 80 },
