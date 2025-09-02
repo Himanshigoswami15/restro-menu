@@ -19,10 +19,10 @@ const App: React.FC = () => {
       </main>
       <footer className="text-center py-10 mt-10 border-t border-brand-light/10">
         <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-2 sm:space-y-0 text-gray-400 mb-4">
-            <span>Shop No: 12, Food Plaza, City Market, Jaipur, Rajasthan 302001</span>
+            <span>Shop. No.11,12,13, Samrdhi Complex, Opp. HDFC Bank - SANCHORE</span>
             <span className="hidden sm:inline">|</span>
-            <a href="tel:+919876543210" className="hover:text-brand-gold transition-colors">
-              Contact: +91 98765 43210
+            <a href="tel:+917297872969" className="hover:text-brand-gold transition-colors">
+              Contact: 72978 72969
             </a>
         </div>
         <p className="text-gray-400">&copy; 2024 Shree Shyam Food Court. All Rights Reserved.</p>
