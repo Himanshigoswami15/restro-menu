@@ -115,6 +115,16 @@ export const MENU_DATA: MenuCategory[] = [
     ],
   },
   {
+    id: 'momos',
+    name: 'Momos',
+    image: 'https://www.theroastedroot.net/wp-content/uploads/2020/09/easy-vegetable-soup-1.jpg',
+    items: [
+      { name: 'Veg Momos', price: 110 },
+      { name: 'Fry Momos', price: 100 },
+      { name: 'Kurkure Momos', price: 120 },
+    ],
+  },
+  {
     id: 'snacks',
     name: 'Snacks',
     image: 'https://th.bing.com/th/id/R.7b7de2989ccc779db0e7fc77f1e1fa6b?rik=HNdxGzgSuxh11Q&riu=http%3a%2f%2frecipes.timesofindia.com%2fphoto%2f52416693.cms%3fimgsize%3d53280&ehk=fhVSmyLyPqhm2WGcvNs7i5cLR5BfvJAC15iXt2QEiPg%3d&risl=&pid=ImgRaw&r=0',
@@ -170,6 +180,49 @@ export const MENU_DATA: MenuCategory[] = [
         { name: 'Food Court Sp. Hungama', price: 250, isBestseller: true, description: 'Our signature dish - a spectacular mix of vegetables and paneer in a secret spicy gravy.' },
     ],
   },
+  {
+    id: 'marwadi special',
+    name: 'Marwadi Special',
+    image: '',
+    items: [
+      { name: 'SP. Haldi Sabji', price: 260},
+      { name: 'Ker Sangri', price: 220 },
+      { name: 'Garlic Chutney', price: 100 },
+      { name: 'Mashroom Masala', price: 150  },
+    ],
+  },
+    {
+    id: 'Rajasthani Thali',
+    name: 'Rajasthani Thali',
+    image: '',
+    items: [
+      { name: 'Dal Fry,Sabji,Butter Milk,Rice,4 Roti,Papad,Salad,Chutney', price: 180},
+    ],
+  },
+    {
+    id: 'raita',
+    name: 'Raita',
+    image: '',
+    items: [
+      { name: 'Vegitable Raita', price: 120},
+      { name: 'Bundi Raita', price: 100 },
+      { name: 'Onion Raita', price: 100  },
+      { name: 'Curd Fry', price: 120  },
+      { name: 'Plain Curd', price: 70  },
+    ],
+  },
+    {
+    id: 'Dal',
+    name: 'Dal',
+    image: '',
+    items: [
+      { name: 'Dal Fry', price: 1200},
+      { name: 'Dal Tadka', price: 130 },
+      { name: 'Desi Dal Makhani', price: 140 },
+      { name: 'Dehli Dal Makhani', price:180  },
+    ],
+  },
+ 
     {
     id: 'vegetable',
     name: 'Vegetable',
@@ -222,6 +275,19 @@ export const MENU_DATA: MenuCategory[] = [
     ],
   },
   {
+    id: 'Salad/Papad',
+    name: 'Salad/Papad',
+    image: '',
+    items: [
+      { name: 'Green Salad', price: 60 },
+      { name: 'Kachumber Salad', price: 80 },
+      { name: 'Roasted Papad', price: 30 },
+      { name: 'Masala Papad', price: 50 },
+      { name: 'Khichiya Plain', price: 50 },
+      { name: 'Masala Papad', price: 100, },
+    ],
+  },
+  {
     id: 'beverages',
     name: 'Juice and Tea',
     image: 'https://tse4.mm.bing.net/th/id/OIP.oy8M58KwSuyyvrquW5hFvQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
@@ -233,13 +299,34 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'Masala Tea', price: 20 },
       { name: 'Sp. Kulhad Tea', price: 20, isBestseller: true },
       { name: 'Coffee', price: 30 },
-      { name: 'Cold Drinks', price: 0, description: 'MRP + 10 Extra' },
-      { name: 'Water Bottle', price: 20 },
     ],
   },
   {
-    id: 'shakes',
-    name: 'Shakes',
+    id: 'lassi',
+    name: 'Lassi',
+    image: '',
+    items: [
+      { name: 'SP> Food Court Lassi', price: 80 },
+      { name: 'Sweet Lassi', price: 60 },
+      { name: 'Masala Butter Lassi', price: 70 },
+      { name: 'Plain Butter Milk', price: 20 },
+      { name: 'Masala Butter Milk', price: 30 },
+    ],
+  },
+  {
+    id: 'Chocolate shakes',
+    name: 'Chocolate Shakes',
+    image: '',
+    items: [
+      { name: 'Chocolate Shake', price: 70 },
+      { name: 'Chocolate Shake (With Ice Cream)', price: 100 },
+      { name: 'Cold Coffee', price: 70 },
+      { name: 'Thick Chocolate Shake', price: 100 },
+     ],
+  },
+  {
+    id: 'ice cream shakes',
+    name: 'Ice Cream Shakes',
     image: 'https://tse1.mm.bing.net/th/id/OIP.RDmlNxzuCRhBgZPtAv-S2QHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
     items: [
       { name: 'Pineapple Shake', price: 80 },
@@ -250,10 +337,7 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'Milk Rose Shake', price: 80 },
       { name: 'Vanilla Shake', price: 100 },
       { name: 'Butter Scotch Shake', price: 100 },
-      { name: 'Chocolate Shake', price: 70 },
-      { name: 'Chocolate Shake (With Ice Cream)', price: 100 },
-      { name: 'Cold Coffee', price: 70 },
-      { name: 'Thick Chocolate Shake', price: 100 },
+
       { name: 'Kaju Anjeer Shake', price: 180, isBestseller: true, description: 'A rich and healthy shake made from cashews and figs.' },
       { name: 'Dry Fruit Shake', price: 200 },
       { name: 'Anjeer Shake', price: 190 },
@@ -262,6 +346,15 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'Kesar Pista Shake', price: 120 },
       { name: 'Labalab Shake', price: 120 },
       { name: 'Jhamajham Shake', price: 110 },
+    ],
+  },
+  {
+    id: 'cold drinks',
+    name: 'Cold Drinks',
+    image: '',
+    items: [
+     { name: 'Cold Drinks', price: MRP + 10 Extra,  },
+     { name: 'Water Bottle', price: 20 },      
     ],
   },
 ];
