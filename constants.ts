@@ -117,7 +117,7 @@ export const MENU_DATA: MenuCategory[] = [
   {
     id: 'momos',
     name: 'Momos',
-    image: 'https://www.theroastedroot.net/wp-content/uploads/2020/09/easy-vegetable-soup-1.jpg',
+    image: '',
     items: [
       { name: 'Veg Momos', price: 110 },
       { name: 'Fry Momos', price: 100 },
@@ -183,7 +183,7 @@ export const MENU_DATA: MenuCategory[] = [
   {
     id: 'marwadi special',
     name: 'Marwadi Special',
-    image: '',
+    image: 'https://image.freepik.com/free-photo/rajasthani-traditional-cuisine-haldi-sabji_55610-3621.jpg',
     items: [
       { name: 'SP. Haldi Sabji', price: 260},
       { name: 'Ker Sangri', price: 220 },
@@ -194,7 +194,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
     id: 'Rajasthani Thali',
     name: 'Rajasthani Thali',
-    image: '',
+    image: 'https://imgmedia.lbb.in/media/2019/05/5ce46f0a75605035eafaa81e_1558474506486.jpg',
     items: [
       { name: 'Dal Fry,Sabji,Butter Milk,Rice,4 Roti,Papad,Salad,Chutney', price: 180},
     ],
@@ -202,7 +202,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
     id: 'raita',
     name: 'Raita',
-    image: '',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.3M4DwfA06Ov-d-UeT5wvhwHaLH?r=0&w=1200&h=1800&rs=1&pid=ImgDetMain&o=7&rm=3',
     items: [
       { name: 'Vegitable Raita', price: 120},
       { name: 'Bundi Raita', price: 100 },
@@ -214,7 +214,7 @@ export const MENU_DATA: MenuCategory[] = [
     {
     id: 'Dal',
     name: 'Dal',
-    image: '',
+    image: 'https://static.vecteezy.com/system/resources/previews/038/972/483/large_2x/ai-generated-dal-tadka-is-a-popular-indian-dish-where-cooked-spiced-lentils-are-finished-with-a-tempering-made-of-ghee-or-oil-and-spices-photo.jpg',
     items: [
       { name: 'Dal Fry', price: 1200},
       { name: 'Dal Tadka', price: 130 },
@@ -277,7 +277,7 @@ export const MENU_DATA: MenuCategory[] = [
   {
     id: 'Salad/Papad',
     name: 'Salad/Papad',
-    image: '',
+    image: 'https://media.istockphoto.com/id/666624254/photo/masala-papad-or-roll-papad-or-papadam-indian-food.jpg?s=170667a&w=0&k=20&c=h6yWttzcDG4rguF0j6GKDOFvdsTzxgNUjH_3xA56oeA=',
     items: [
       { name: 'Green Salad', price: 60 },
       { name: 'Kachumber Salad', price: 80 },
@@ -304,7 +304,7 @@ export const MENU_DATA: MenuCategory[] = [
   {
     id: 'lassi',
     name: 'Lassi',
-    image: '',
+    image: 'https://img.freepik.com/premium-photo/authentic-indian-cold-drink-made-up-curd-milk-malai-called-lassi_466689-60356.jpg',
     items: [
       { name: 'SP> Food Court Lassi', price: 80 },
       { name: 'Sweet Lassi', price: 60 },
@@ -313,10 +313,36 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'Masala Butter Milk', price: 30 },
     ],
   },
+   {
+    id: 'Ice Cream Shake',
+    name: 'Ice Cream Shake',
+    image: 'https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg',
+    items: [
+      { name: 'Pineapple Shake', price: 80 },
+      { name: 'Strawberry Shake', price: 80 },
+      { name: 'Mango Shake', price: 80 },
+      { name: 'Chiku Shake', price: 80 },
+      { name: 'Papita Shake', price: 80 },
+      { name: 'Banana Shake', price: 80 }, 
+      { name: 'Milk Rose Shake', price: 80 },
+      { name: 'Vanilla Shake', price: 100 },
+      { name: 'Butter Scotch Shake', price: 100 }, 
+    ],
+  },
+    {
+    id: 'Dry Fruit Shake',
+    name: 'Dry Fruit Shake',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.i7DOLz9eD40ptmng_BhToAHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    items: [
+     { name: 'Kaju Anjeer Shake', price: 180,  },
+     { name: 'Dry Fruit Shake', price: 200 }, 
+     { name: 'Anjeer Shake', price: 190 }, 
+    ],
+  },
   {
     id: 'Chocolate shakes',
     name: 'Chocolate Shakes',
-    image: '',
+    image: 'https://th.bing.com/th/id/OIP.kUZlmqajq-bZC1OMOnlqDwHaLH?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     items: [
       { name: 'Chocolate Shake', price: 70 },
       { name: 'Chocolate Shake (With Ice Cream)', price: 100 },
@@ -325,33 +351,43 @@ export const MENU_DATA: MenuCategory[] = [
      ],
   },
   {
-    id: 'ice cream shakes',
-    name: 'Ice Cream Shakes',
-    image: 'https://tse1.mm.bing.net/th/id/OIP.RDmlNxzuCRhBgZPtAv-S2QHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    id: ' shakes',
+    name: 'Shakes',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.65hGHTKppIuDuzYmozGoSwHaFa?r=0&w=626&h=457&rs=1&pid=ImgDetMain&o=7&rm=3',
     items: [
-      { name: 'Pineapple Shake', price: 80 },
-      { name: 'Strawberry Shake', price: 80 },
-      { name: 'Mango Shake', price: 80 },
-      { name: 'Chiku Shake', price: 80 },
-      { name: 'Papita Shake', price: 80 },
-      { name: 'Milk Rose Shake', price: 80 },
-      { name: 'Vanilla Shake', price: 100 },
-      { name: 'Butter Scotch Shake', price: 100 },
-
-      { name: 'Kaju Anjeer Shake', price: 180, isBestseller: true, description: 'A rich and healthy shake made from cashews and figs.' },
-      { name: 'Dry Fruit Shake', price: 200 },
-      { name: 'Anjeer Shake', price: 190 },
-      { name: 'Kit Kat Shake', price: 100 },
-      { name: 'Orio Shake', price: 100 },
-      { name: 'Kesar Pista Shake', price: 120 },
+      { name: 'Pineapple Shake', price: 60 },
+      { name: 'Strawberry Shake', price: 60 },
+      { name: 'Mango Shake', price: 60 },
+      { name: 'Chiku Shake', price: 60 },
+      { name: 'Papita Shake', price: 60 },
+      { name: 'Banana Shake', price: 60 }, 
+      { name: 'Milk Rose Shake', price: 60 },
+ 
+    ],
+  },
+    {
+    id: 'Thick Shake',
+    name: 'Thick Shake',
+    image: 'https://i.ytimg.com/vi/WPUT6xr-fis/maxresdefault.jpg',
+    items: [
+     { name: 'Kit Kat Shake', price: 100 },
+     { name: 'Orio Shake', price: 100 },
+     { name: 'Kesar Pista Shake', price: 120 }, 
+    ],
+  },
+    {
+    id: 'Special Shake',
+    name: 'Special Shake',
+    image: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/10/falooda.jpg.webp',
+    items: [
       { name: 'Labalab Shake', price: 120 },
-      { name: 'Jhamajham Shake', price: 110 },
+      { name: 'Jhamajham Shake', price: 110 },     
     ],
   },
   {
     id: 'cold drinks',
     name: 'Cold Drinks',
-    image: '',
+    image: 'https://gadegal-homestay.himwebx.com/wp-content/uploads/2023/10/cold-drink.jpeg',
     items: [
      { name: 'Cold Drinks', price: MRP + 10 Extra,  },
      { name: 'Water Bottle', price: 20 },      
