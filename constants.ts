@@ -351,7 +351,7 @@ export const MENU_DATA: MenuCategory[] = [
      ],
   },
   {
-    id: ' shakes',
+    id: 'shakes',
     name: 'Shakes',
     image: 'https://tse4.mm.bing.net/th/id/OIP.65hGHTKppIuDuzYmozGoSwHaFa?r=0&w=626&h=457&rs=1&pid=ImgDetMain&o=7&rm=3',
     items: [
@@ -389,7 +389,7 @@ export const MENU_DATA: MenuCategory[] = [
     name: 'Cold Drinks',
     image: 'https://gadegal-homestay.himwebx.com/wp-content/uploads/2023/10/cold-drink.jpeg',
     items: [
-     { name: 'Cold Drinks', price: MRP + 10 Extra,  },
+     { name: 'Cold Drinks', price: 0, description: 'MRP + ₹10 Extra' },
      { name: 'Water Bottle', price: 20 },      
     ],
   },
