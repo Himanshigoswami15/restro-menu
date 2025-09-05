@@ -389,7 +389,7 @@ export const MENU_DATA: MenuCategory[] = [
     name: 'Cold Drinks',
     image: 'https://gadegal-homestay.himwebx.com/wp-content/uploads/2023/10/cold-drink.jpeg',
     items: [
-     { name: 'Cold Drinks', price: 0, description: 'MRP + ₹10 Extra' },
+     { name: 'Cold Drinks', price: 0, description: 'MRP+10 EXTRA'},
      { name: 'Water Bottle', price: 20 },      
     ],
   },
